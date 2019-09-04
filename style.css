@@ -1,0 +1,44 @@
+div {
+    display:block;
+}
+
+.row {
+    display: flex;
+    flex-direction:row;
+}
+.column {
+    flex: 50%;
+}
+
+.contentBlock {
+    background: #1da1f2;
+    color: #fff;
+    overflow:hidden;
+    position: relative;
+
+    align-items: center;
+    display: flex;
+    /* flex:1; */
+    justify-content: center;
+    height: 100vh;
+}
+.utilityBlock {
+
+}
+
+.centeredBlock {
+    max-width: 440px;
+    padding: 0 16px;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* media queries */
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction:column;
+    }
+    .column {
+        flex: 100%;
+    }
+}
