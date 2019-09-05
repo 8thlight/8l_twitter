@@ -30,3 +30,15 @@ h1 {
     font-size: 14px;
     line-height: 20px;
 }
+
+/* Right Column */
+.signupTitle {
+    font-size: 27px;
+    line-height: 32px;
+    margin: 0;
+}
+
+.EdgeButton--medium {
+    font-size: 14px;
+    line-height:20px;
+}

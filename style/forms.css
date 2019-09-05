@@ -1,0 +1,39 @@
+form {
+    display:block;
+    margin-top: 0em;
+}
+
+.loginForm {
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    max-width:600px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.loginForm-input {
+    margin-right: 12px;
+    width: 210px;
+}
+
+.EdgeButton {
+    text-decoration: none;
+}
+
+.EdgeButton--secondary {
+    background-color: white;
+    border: 1px solid #1da1f2;
+    color: #1da1f2;
+    height: 100%;
+}
+
+.EdgeButton--secondary:hover {
+    background-color: #eaf5fd;
+    color: #1da1f2;
+}
+
