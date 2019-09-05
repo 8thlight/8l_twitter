@@ -1,9 +1,3 @@
-/* Fonts */
-@font-face {
-    font-family: 'edge-icons';
-    src: url('./fonts/edge-icons-Regular.ttf') format('truetype');
-}
-
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
@@ -65,7 +59,7 @@ div {
 }
 
 /* Icons */
-.icon--discover:before {
+/* .icon--discover:before {
     content: "\f052";
 }
 
@@ -73,11 +67,17 @@ div {
     content: "\f155";
 }
 
-.icon--personalize:before {
-    content: "\f159";
-}
+.icon:after, .icon:before {
+    display:block;
+    font-family: "edge-icons";
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+} */
 
-.icon {
+/* This overrides the provided styles from ei.css via edge-icons */
+.Icon {
     font-size: 35px;
     margin-right: 16px;
     margin-top: 8px;
@@ -89,13 +89,8 @@ div {
     position: relative;
 }
 
-.icon:after, .icon:before {
-    display:block;
-    font-family: "edge-icons";
-    font-weight: normal;
-    font-style: normal;
-    text-align: center;
-    -webkit-font-smoothing: antialiased;
+.Icon--paintbrush:before {
+    content: "\f159";
 }
 
 /* Media Queries */
