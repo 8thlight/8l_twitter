@@ -1,9 +1,16 @@
+/* Fonts */
+@font-face {
+    font-family: 'edge-icons';
+    src: url('./fonts/edge-icons-Regular.ttf') format('truetype');
+}
+
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
-    /* line-height: 20px; */
     position: relative;
     height:100vh;
+    margin: -10px;
+    padding: 0;
 }
 
 div {
@@ -42,7 +49,7 @@ div {
     margin: 0 auto;
 }
 
-/* media queries */
+/* Media Queries */
 @media screen and (max-width: 600px) {
     .row {
         flex-direction:column;
@@ -57,11 +64,35 @@ div {
     content: "\f052";
 }
 
+.icon--bookmarks:before {
+    content: "\f155";
+}
+
+.icon--personalize:before {
+    content: "\f159";
+}
+
+.icon {
+    font-size: 35px;
+    margin-right: 16px;
+    margin-top: 8px;
+
+    background: transparent;
+    display: inline-block;
+    font-style: normal;
+    vertical-align: baseline;
+    position: relative;
+}
+
 .icon:after, .icon:before {
     display:block;
-    font-family: "edgeicons";
+    font-family: "edge-icons";
     font-weight: normal;
     font-style: normal;
     text-align: center;
-    -webkit-font-smoothing: antialiased
+    -webkit-font-smoothing: antialiased;
 }
+
+
+
+
