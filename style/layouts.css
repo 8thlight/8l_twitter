@@ -12,12 +12,18 @@ div {
     display: flex;
     flex-direction:row;
 }
+
 .column {
     flex: 50%;
     align-items: center;
     display: flex;
     justify-content: center;
     height: 100vh;
+}
+
+.feature-list {
+    margin-left:0;
+    padding:0;
 }
 
 /* Right Column */

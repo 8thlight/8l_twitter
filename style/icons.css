@@ -14,3 +14,9 @@
 .Icon--paintbrush:before {
     content: "\f159";
 }
+
+.Icon--bird {
+    color: #1da1f2;
+    font-size: 45px;
+    margin-bottom: 8px;
+}
