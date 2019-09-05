@@ -13,6 +13,13 @@ h1 {
 }
 
 /* Left Column */
+.feature-subheader {
+    font-size: 18px;
+    font-weight: bold;
+    line-height:24px;
+    margin-bottom: 48px;
+}
+
 .feature-text-title {
     font-size: 18px;
     font-weight:bold;
