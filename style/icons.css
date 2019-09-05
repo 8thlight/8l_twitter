@@ -1,0 +1,16 @@
+/* Overrides provided styles from ei.css via edge-icons */
+.Icon {
+    font-size: 35px;
+    margin-right: 16px;
+    margin-top: 8px;
+
+    background: transparent;
+    display: inline-block;
+    font-style: normal;
+    vertical-align: baseline;
+    position: relative;
+}
+
+.Icon--paintbrush:before {
+    content: "\f159";
+}

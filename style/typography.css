@@ -1,0 +1,25 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+h1 {
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 32px;
+    margin-bottom: 16px;
+    margin-top: 32px;
+}
+
+/* Left Column */
+.feature-text-title {
+    font-size: 18px;
+    font-weight:bold;
+    line-height: 24px;
+}
+
+.feature-text-content {
+    font-size: 14px;
+    line-height: 20px;
+}

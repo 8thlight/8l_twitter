@@ -1,18 +1,7 @@
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 20px;
     position: relative;
     margin: 0;
     padding: 0;
-}
-
-h1 {
-    font-size: 27px;
-    font-weight: bold;
-    line-height: 32px;
-    margin-bottom: 16px;
-    margin-top: 32px;
 }
 
 div {
@@ -27,12 +16,11 @@ div {
     flex: 50%;
     align-items: center;
     display: flex;
-    /* flex:1; */
     justify-content: center;
     height: 100vh;
 }
 
-
+/* Right Column */
 .utilityBlock {
 
 }
@@ -61,34 +49,6 @@ div {
     margin-bottom:32px;
 }
 
-.feature-text-title {
-    font-size: 18px;
-    font-weight:bold;
-    line-height: 24px;
-}
-
-.feature-text-content {
-    font-size: 14px;
-    line-height: 20px;
-}
-
-/* Overrides provided styles from ei.css via edge-icons */
-.Icon {
-    font-size: 35px;
-    margin-right: 16px;
-    margin-top: 8px;
-
-    background: transparent;
-    display: inline-block;
-    font-style: normal;
-    vertical-align: baseline;
-    position: relative;
-}
-
-.Icon--paintbrush:before {
-    content: "\f159";
-}
-
 /* Media Queries */
 @media screen and (max-width: 600px) {
     .row {
@@ -98,5 +58,3 @@ div {
         flex: 100%;
     }
 }
-
-
