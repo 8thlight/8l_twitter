@@ -21,26 +21,37 @@ div {
     height: 100vh;
 }
 
-.feature-list {
-    margin-left:0;
-    padding:0;
+/* Right Column */
+.block__utility {
+    max-width: 350px;
 }
 
-/* Right Column */
-/* .utilityBlock {
+.signupHeader {
+    -moz-box-align: center;
+    -ms-flex-aign: center;
+    align-items: center;
 
-} */
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+
+    margin: 16px auto;
+}
 
 /* Left Column */
 
-.communicationBlock {
+.column__communication {
     background: #1da1f2;
     color: #fff;
     overflow: hidden;
     position: relative;
 }
 
-.centeredBlock {
+.block--centered {
     max-width: 440px;
     position: relative;
     max-width: 440px;
@@ -48,7 +59,12 @@ div {
     position: relative;
 }
 
-.feature-item{
+.feature__list {
+    margin-left:0;
+    padding:0;
+}
+
+.feature__item{
     display: -moz-box;
     display: -ms-flexbox;
     display: flex;

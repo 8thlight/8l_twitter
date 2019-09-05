@@ -22,7 +22,33 @@ form {
 }
 
 .EdgeButton {
+    border-radius: 100px;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 6px 16px;
+    position:relative;
+    text-align: center;
+    white-space: nowrap;
     text-decoration: none;
+}
+
+.EdgeButton--primary {
+    background-color: #1da1f2;
+    border: 1px solid #1da1f2;
+    color: white;
+}
+
+.EdgeButton--primary:hover {
+    background-color: #006dbf;
+    border-color: #006dbf;
+    color: white;
+}
+
+.EdgeButton--signup {
+    margin-bottom: 16px;
 }
 
 .EdgeButton--secondary {
@@ -36,4 +62,3 @@ form {
     background-color: #eaf5fd;
     color: #1da1f2;
 }
-

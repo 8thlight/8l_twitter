@@ -13,32 +13,28 @@ h1 {
 }
 
 /* Left Column */
-.feature-subheader {
+.feature__subheader {
     font-size: 18px;
     font-weight: bold;
     line-height:24px;
     margin-bottom: 48px;
 }
 
-.feature-text-title {
+.feature-text__title {
     font-size: 18px;
     font-weight:bold;
     line-height: 24px;
 }
 
-.feature-text-content {
+.feature-text__content {
     font-size: 14px;
     line-height: 20px;
 }
 
 /* Right Column */
-.signupTitle {
+.signup__title {
     font-size: 27px;
     line-height: 32px;
     margin: 0;
 }
 
-.EdgeButton--medium {
-    font-size: 14px;
-    line-height:20px;
-}
