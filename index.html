@@ -17,8 +17,8 @@
     <div id="main">
         <div class="row">
             <div class = "column column__utility">
-
-                <div class="login">
+                <!-- Login form on wide views -->
+                <div class="login login--wide">
                     <form action="#" class="login__form" method="post" data-component="login_callout" data-element="form" >
                         
                         <div class="login__form--input">
@@ -31,14 +31,16 @@
                                 <a class="forgot" href="#" rel="noopener">Forgot password?</a>
                             </div>
                         </div>       
-                        <input type="submit" class="EdgeButton EdgeButton--secondary EdgeButton--medium login__form--input submit" value="Log in">
+                        <input type="submit" class="EdgeButton EdgeButton--secondary EdgeButton--medium login__form--submit EdgeButton--submit" value="Log in">
                     </form>
                 </div>
+                <!-- End login form on wide views -->
 
                 <div class="block block__utility block--centered">
                     <div class="signup__header">
                         <span class="Icon Icon--bird"></span>
-                        <!-- TODO: Hidden signup form goes here on mobile views -->
+                        <!-- Hidden signup form goes here on narrow views -->
+                        <a class="EdgeButton EdgeButton--secondary EdgeButton--small narrow-login-button" href="#">Log In</a>
                     </div>
                     <h1 class="signup__title">See what's happening in the world right now</h1>
                     <h3 class="signup__subtitle">Join Twitter today.</h3>

@@ -6,29 +6,35 @@ input, textarea {
 }
 
 .login {
+    left: 0;
     position: absolute;
     top: 20px;
     width: 100%;
+    
+
 }
 
 .login__form {
-    display: -moz-box;
-    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0 auto;
+    justify-content: space-evenly;
+
     max-width: 600px;
     padding-left: 20px;
     padding-right: 20px;
+    margin: 0 auto;
 }
 
 .login__form--input {
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
     margin-right: 12px;
+    padding: 0 12px;
+    width: 100%;
+}
+
+.login__form--submit {
+    /* margin-right: 12px; */
     margin-top: 12px;
-    height: 100%;
+    padding: 0 12px;
+    margin-left: 12px;
 }
 
 .forgot {
@@ -37,13 +43,18 @@ input, textarea {
 
 .text-input {
     padding: 12px;
-    width: 210px;
+    width: 100%;
+    margin-top: 12px;
 }
 
 .text-input:focus {
     outline:0;
     color: #14171a;
     border-color: rgba(0,132,180,0.5);
+}
+
+.narrow-login-button {
+    display:none;
 }
 
 .EdgeButton {
@@ -89,6 +100,15 @@ input, textarea {
     color: #1da1f2;
 }
 
-.submit {
+.EdgeButton--submit {
     padding: 12px;
+}
+
+@media screen and (max-width: 1023px) {
+    .login--wide {
+        display: none;
+    }
+    .narrow-login-button {
+        display: inline-block;
+    }
 }
