@@ -1,24 +1,39 @@
+html {
+    height: 100%;
+}
+
 body {
     position: relative;
     margin: 0;
     padding: 0;
+    height:100%;
+}
+
+#main {
+    height:100%;
+    flex:1;
 }
 
 div {
     display:block;
 }
 
+ul {
+    padding: 0;
+    margin: 0;
+}
 .row {
     display: flex;
-    flex-direction:row;
+    flex-direction:row-reverse;
+    height:100%;
 }
 
 .column {
     flex: 50%;
     align-items: center;
     display: flex;
+    flex:1;
     justify-content: center;
-    height: 100vh;
 }
 
 .column__communication {
@@ -28,9 +43,9 @@ div {
     position: relative;
 }
 
-.column__utility {
+/* .column__utility {
     flex:1;
-}
+} */
 
 .block__communication {
     max-width: 450px;
@@ -62,8 +77,6 @@ div {
 }
 
 /* Left Column */
-
-
 .block--centered {
     position: relative;
     padding: 0 16px;
@@ -79,6 +92,53 @@ div {
     display: -ms-flexbox;
     display: flex;
     margin-bottom:32px;
+}
+
+/* Footer Items */
+.footer {
+    width: 100%;
+    bottom: 0;
+
+    border-top: 1px solid #e6ecf0;
+    padding: 11px 0;
+    background-color: #fff;
+    /* bottom: -10%; */
+    width: 100%;
+    z-index: 2;
+}
+
+.footer--fixed {
+    position: fixed;
+}
+
+.footer__list {
+    background: #fff;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    
+    width: auto;
+    margin:0;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer__item {
+    display: inline-block;
+    padding: 0 9px;
+
+    /* TODO: move to typography.css */
+    color: #aab8c2;
+    font-size: 12px;
+    margin: 0;
+    
 }
 
 /* Media Queries */
