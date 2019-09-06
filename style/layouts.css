@@ -141,7 +141,17 @@ ul {
     
 }
 
-/* Media Queries */
+/* Twitter Bird */
+.twitterIcon-bird {
+    height: 140vh;
+    right: -80vh;
+    top: -20vh;
+    max-width: none;
+    position: absolute;
+    overflow: hidden;
+}
+
+
 @media screen and (max-width: 600px) {
     .row {
         flex-direction:column;
