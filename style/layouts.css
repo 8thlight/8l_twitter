@@ -21,12 +21,27 @@ div {
     height: 100vh;
 }
 
-/* Right Column */
+.column__communication {
+    background: #1da1f2;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.column__utility {
+    flex:1;
+}
+
+.block__communication {
+    max-width: 450px;
+}
+
 .block__utility {
     max-width: 350px;
 }
 
-.signupHeader {
+/* Right Column */
+.signup__header {
     -moz-box-align: center;
     -ms-flex-aign: center;
     align-items: center;
@@ -42,21 +57,16 @@ div {
     margin: 16px auto;
 }
 
-/* Left Column */
-
-.column__communication {
-    background: #1da1f2;
-    color: #fff;
-    overflow: hidden;
-    position: relative;
+.signup__subtitle {
+    margin-top: 48px;
 }
 
+/* Left Column */
+
+
 .block--centered {
-    max-width: 440px;
     position: relative;
-    max-width: 440px;
     padding: 0 16px;
-    position: relative;
 }
 
 .feature__list {
