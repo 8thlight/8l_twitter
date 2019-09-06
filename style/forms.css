@@ -1,24 +1,49 @@
-form {
-    display:block;
-    margin-top: 0em;
+input, textarea {
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #e6ecf0;
+    border-radius: 3px;
 }
 
-.loginForm {
+.login {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+}
+
+.login__form {
     display: -moz-box;
     display: -ms-flexbox;
     display: flex;
-
     flex-direction: row;
     justify-content: center;
     margin: 0 auto;
-    max-width:600px;
+    max-width: 600px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.loginForm-input {
+.login__form--input {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     margin-right: 12px;
+    margin-top: 12px;
+    height: 100%;
+}
+
+.forgot {
+    color: #aab8c2;
+}
+
+.text-input {
+    padding: 12px;
     width: 210px;
+}
+
+.text-input:focus {
+    outline:0;
+    color: #14171a;
+    border-color: rgba(0,132,180,0.5);
 }
 
 .EdgeButton {
@@ -49,6 +74,7 @@ form {
 
 .EdgeButton--signup {
     margin-bottom: 16px;
+    height: 100%;
 }
 
 .EdgeButton--secondary {
@@ -61,4 +87,8 @@ form {
 .EdgeButton--secondary:hover {
     background-color: #eaf5fd;
     color: #1da1f2;
+}
+
+.submit {
+    padding: 12px;
 }
