@@ -1,114 +1,113 @@
-input, textarea {
-    display: inline-block;
-    background-color: #fff;
-    border: 1px solid #e6ecf0;
-    border-radius: 3px;
+input,
+textarea {
+  display: inline-block;
+  background-color: #FFF;
+  border: 1px solid #E6ECF0;
+  border-radius: 3px;
 }
 
 .login {
-    left: 0;
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    
-
+  left: 0;
+  position: absolute;
+  top: 20px;
+  width: 100%;
 }
 
 .login__form {
-    display: flex;
-    justify-content: space-evenly;
-
-    max-width: 600px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
 }
 
 .login__form--input {
-    margin-right: 12px;
-    padding: 0 12px;
-    width: 100%;
+  margin-right: 12px;
+  padding: 0 12px;
+  width: 100%;
 }
 
 .login__form--submit {
-    /* margin-right: 12px; */
-    margin-top: 12px;
-    padding: 0 12px;
-    margin-left: 12px;
+  /* margin-right: 12px; */
+  margin-top: 12px;
+  padding: 0 12px;
+  margin-left: 12px;
 }
 
 .forgot {
-    color: #aab8c2;
+  color: #AAB8C2;
 }
 
 .text-input {
-    padding: 12px;
-    width: 100%;
-    margin-top: 12px;
+  padding: 12px;
+  width: 100%;
+  margin-top: 12px;
 }
 
 .text-input:focus {
-    outline:0;
-    color: #14171a;
-    border-color: rgba(0,132,180,0.5);
+  outline: 0;
+  color: #14171A;
+  border-color: rgba(0, 132, 180, 0.5);
 }
 
 .narrow-login-button {
-    display:none;
+  display: none;
 }
 
 .EdgeButton {
-    border-radius: 100px;
-    box-shadow: none;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 20px;
-    padding: 6px 16px;
-    position:relative;
-    text-align: center;
-    white-space: nowrap;
-    text-decoration: none;
+  border-radius: 100px;
+  box-shadow: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none;
 }
 
 .EdgeButton--primary {
-    background-color: #1da1f2;
-    border: 1px solid #1da1f2;
-    color: white;
+  background-color: #1DA1F2;
+  border: 1px solid #1DA1F2;
+  color: white;
 }
 
 .EdgeButton--primary:hover {
-    background-color: #006dbf;
-    border-color: #006dbf;
-    color: white;
+  background-color: #006DBF;
+  border-color: #006DBF;
+  color: white;
 }
 
 .EdgeButton--signup {
-    margin-bottom: 16px;
-    height: 100%;
+  margin-bottom: 16px;
+  height: 100%;
 }
 
 .EdgeButton--secondary {
-    background-color: white;
-    border: 1px solid #1da1f2;
-    color: #1da1f2;
-    height: 100%;
+  background-color: white;
+  border: 1px solid #1DA1F2;
+  color: #1DA1F2;
+  height: 100%;
 }
 
 .EdgeButton--secondary:hover {
-    background-color: #eaf5fd;
-    color: #1da1f2;
+  background-color: #EAF5FD;
+  color: #1DA1F2;
 }
 
 .EdgeButton--submit {
-    padding: 12px;
+  padding: 12px;
 }
 
 @media screen and (max-width: 1023px) {
-    .login--wide {
-        display: none;
-    }
-    .narrow-login-button {
-        display: inline-block;
-    }
+  .login--wide {
+    display: none;
+  }
+
+  .narrow-login-button {
+    display: inline-block;
+  }
 }
